@@ -54,7 +54,7 @@ nav a:nth-child(7){
     width: 55%;
 }
 .hdr-right{
-    width: 15%;
+    width: 18%;
 }
 .mid a:nth-child(1)::after{
     color: #262626;
@@ -136,8 +136,6 @@ hr{
     #second{
         display: none;
     }
-<<<<<<< HEAD
-
     
 }
 .hover:hover {
@@ -188,34 +186,34 @@ hr{
     margin-right: 45px ;
 }
 .search-all{
-    
     background-color: white;
-=======
-    .third-all{
+    display: flex;
+    align-items: center;
+} 
+.third-all{
         display: flex;
         flex-direction: column;
         
-    }
-    .third-all .img{
+}
+.third-all .img{
         width: 100%;
-    }
-    .third-all .txt{
+}
+.third-all .txt{
         width: 100%;
         text-align: center;
         margin-top: 40px
-    }
-    .third-all .txt h3{
+}
+.third-all .txt h3{
         font-size: 30px;
         width: 100%
-    }
-    .third-all .txt h5{
+}
+.third-all .txt h5{
         font-size: 14px;
         width: 100%
-    }
-    .third-all .img img{
+}
+.third-all .img img{
         width: 100%;
         text-align: center;
-    }
 }
 #second{
     margin-bottom: 30px
@@ -224,16 +222,16 @@ hr{
     background-color: #ccd6ea;
 }
 .third-all{
->>>>>>> 5cf09d78c3d48738d9adda33d08e12d33fa1b353
+
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-<<<<<<< HEAD
+
 .dil{
     position: absolute;
-    top :5%;
-    right: 9.8%;
+    top :5.5%;
+    right: 20.8%;
     width: 8%;
     background-color: white;
     box-shadow: 0 0 17px 0 #a19ba1;
@@ -264,7 +262,7 @@ hr{
 #dropdown{
     cursor: pointer;
 }
-=======
+
 .txt{
     width: 40%;
     margin-bottom: 7rem;
@@ -284,4 +282,4 @@ hr{
     font-size: 25px;
     margin-bottom: 50px;
 }
->>>>>>> 5cf09d78c3d48738d9adda33d08e12d33fa1b353
+

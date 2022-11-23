@@ -27,11 +27,13 @@ scr.onclick=function axtr() {
     }
 }
 dropdown.onclick=function lang() {
-    x.classList.toggle('bi-chevron-up')
+    
     if (x.classList.contains('bi-chevron-up')) {
-        dil.style.display='block'
+        x.classList.replace('bi-chevron-up','bi-chevron-down')
+        dil.style.display='none'
     }
     else{
-        dil.style.display='none'
+        x.classList.replace('bi-chevron-down','bi-chevron-up')
+        dil.style.display='block'
     }
 }
